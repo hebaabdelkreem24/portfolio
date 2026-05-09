@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Heba Abdelkreem | Full Stack JavaScript Developer</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo" style="text-decoration: none;">
+            <div class="logo-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            HEBA<span>.</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="#" class="btn-outline" id="resumeBtn">
+                <i class="fas fa-download"></i> Resume
+            </a>
+            <a href="#contact" class="btn-primary">
+                <i class="fas fa-paper-plane"></i> Hire Me
+            </a>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="hero-greeting">Hello, I'm</div>
+            <h1 class="hero-title">HEBA <span>ABDELKREEM</span></h1>
+            <div class="hero-subtitle">Full Stack JavaScript Developer</div>
+            <div class="hero-subtitle" style="font-size: 1.1rem; color: var(--purple-primary); font-family: 'JetBrains Mono'">
+                &lt; MERN Stack Specialist /&gt;
+            </div>
+            <p class="hero-description">
+                Results-driven developer with 2+ years of experience designing scalable MERN stack applications. 
+                Combining a Chemistry background with technical expertise to build high-performance solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary" style="padding: 0.75rem 2rem;">
+                    View My Work
+                </a>
+                <a href="#contact" class="btn-outline" style="padding: 0.75rem 2rem;">
+                    Contact Me
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <!-- Replace with your actual image URL -->
+                <!-- <img src="https://ui-avatars.com/api/?background=8b5cf6&color=fff&size=350&name=Heba+Abdelkreem&rounded=true&bold=true" alt="Heba Abdelkreem"> -->
+
+                <img src="images/profile.png" alt="Heba Abdelkreem">
+                <div class="status-badge"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>About <span>Me</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I am a <strong>Full Stack JavaScript Developer</strong> with a unique edge—my background in <strong style="color: var(--purple-primary);">Chemistry</strong> allows me to understand and build specialized solutions for chemical and pharmaceutical industries.</p>
+                <p>Proficient in <strong>React.js, Next.js, Node.js, Express.js, and MongoDB</strong>, with strong expertise in RESTful API integration, JWT authentication, and performance optimization.</p>
+                <p>Committed to clean code practices, Agile methodologies, and delivering scalable systems that drive real business results.</p>
+                <div class="stats-grid" style="margin-top: 2rem;">
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">On-Time Delivery</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">99%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="glass" style="padding: 2rem;">
+                    <h3 style="margin-bottom: 1rem;">💡 What I Do Best</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.75rem;">✓ Build responsive, performant web applications</li>
+                        <li style="margin-bottom: 0.75rem;">✓ Create RESTful APIs and integrate third-party services</li>
+                        <li style="margin-bottom: 0.75rem;">✓ Implement secure authentication & authorization</li>
+                        <li style="margin-bottom: 0.75rem;">✓ Optimize database queries and application performance</li>
+                        <li style="margin-bottom: 0.75rem;">✓ Collaborate in Agile teams and code reviews</li>
+                    </ul>
+                </div>
+                <div class="glass" style="padding: 2rem; margin-top: 1.5rem;">
+                    <h3 style="margin-bottom: 1rem;">🎯 Soft Skills</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="background: rgba(139, 92, 246, 0.2); padding: 0.25rem 1rem; border-radius: 2rem;">Time Management</span>
+                        <span style="background: rgba(139, 92, 246, 0.2); padding: 0.25rem 1rem; border-radius: 2rem;">Problem Solving</span>
+                        <span style="background: rgba(139, 92, 246, 0.2); padding: 0.25rem 1rem; border-radius: 2rem;">Team Collaboration</span>
+                        <span style="background: rgba(139, 92, 246, 0.2); padding: 0.25rem 1rem; border-radius: 2rem;">Client Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" style="background: rgba(18, 22, 59, 0.3);">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Educational <span>Background</span></h2>
+            <div class="section-underline"></div>
+            <p style="color: var(--text-muted); margin-top: 1rem;">My academic journey combining scientific rigor with technical excellence</p>
+        </div>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Bachelor of Science in Chemistry</h3>
+                <div class="education-institution">Alexandria University</div>
+                <div class="education-period"><i class="far fa-calendar-alt"></i> Aug 2019 – Aug 2023</div>
+                <div class="education-gpa">⭐ Very Good</div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Chemistry background combined with technical expertise for specialized solutions in chemical and pharmaceutical domains.</p>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Full Stack Web Development</h3>
+                <div class="education-institution">Self-Taught & Online Certifications</div>
+                <div class="education-period"><i class="far fa-calendar-alt"></i> 2023 – Present</div>
+                <div class="education-gpa">🚀 Continuous Learning</div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">MERN Stack Mastery • 30+ projects completed • Modern web technologies</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Technical <span>Skills</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="skills-categories" id="skillCategories">
+            <button class="skill-tab active" data-category="frontend">Frontend</button>
+            <button class="skill-tab" data-category="backend">Backend</button>
+            <button class="skill-tab" data-category="tools">Tools & DevOps</button>
+            <button class="skill-tab" data-category="softskills">Soft Skills</button>
+        </div>
+        <div class="category-summary" id="categorySummary">
+            Frontend development focuses on creating responsive, interactive user interfaces using modern frameworks and libraries.
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" style="background: rgba(18, 22, 59, 0.3);">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Professional <span>Experience</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="timeline" id="timeline"></div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>What I <span>Offer</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3>Web Development</h3>
+                <p style="color: var(--text-muted);">Full-stack web applications using MERN stack with responsive design.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Responsive Design</h3>
+                <p style="color: var(--text-muted);">Mobile-first approach ensuring perfect display on all devices.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3>API Development</h3>
+                <p style="color: var(--text-muted);">RESTful APIs and database design for scalable applications.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Performance Optimization</h3>
+                <p style="color: var(--text-muted);">Speed optimization and best practices implementation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" style="background: rgba(18, 22, 59, 0.3);">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Featured <span>Projects</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Achievements & <span>Certifications</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+            <div class="skill-card" style="text-align: left;">
+                <i class="fas fa-certificate"></i>
+                <div class="skill-name">Responsive Web Design</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">freeCodeCamp</div>
+            </div>
+            <div class="skill-card" style="text-align: left;">
+                <i class="fas fa-award"></i>
+                <div class="skill-name">Web Design Internship</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Creative Agency</div>
+            </div>
+            <div class="skill-card" style="text-align: left;">
+                <i class="fas fa-trophy"></i>
+                <div class="skill-name">5+ Projects Delivered</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">100% Client Satisfaction</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" style="background: rgba(18, 22, 59, 0.3);">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>What People <span>Say</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="glass" style="padding: 2rem;">
+                <i class="fas fa-quote-left" style="color: var(--purple-primary); font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                <p style="color: var(--text-secondary);">"Heba delivered our project ahead of schedule with exceptional quality. Her technical skills and communication are outstanding!"</p>
+                <h4 style="margin-top: 1rem;">— Client</h4>
+            </div>
+            <div class="glass" style="padding: 2rem;">
+                <i class="fas fa-quote-left" style="color: var(--purple-primary); font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                <p style="color: var(--text-secondary);">"A dedicated developer who truly understands requirements and delivers clean, maintainable code."</p>
+                <h4 style="margin-top: 1rem;">— Team Lead</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="section-container">
+        <div class="section-header">
+            <h2>Let's <span>Work Together</span></h2>
+            <div class="section-underline"></div>
+            <p style="color: var(--text-muted); margin-top: 1rem;">I'm currently open to new opportunities, freelance projects, and collaborations</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <a href="mailto:hebaabdelkreem243@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p style="color: var(--text-muted);">hebaabdelkreem243@gmail.com</p>
+                    </div>
+                </a>
+                <a href="tel:+201279123431" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p style="color: var(--text-muted);">+20 127 912 3431</p>
+                    </div>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4>Location</h4>
+                        <p style="color: var(--text-muted);">Alexandria, Egypt</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; padding: 1rem;">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="logo" style="font-size: 1.2rem;">HEBA<span>.</span></div>
+        <p style="color: var(--text-muted);">© 2024 Heba Abdelkreem. All rights reserved.</p>
+        <div class="footer-social">
+            <a href="#" class="social-icon" style="width: 35px; height: 35px;"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon" style="width: 35px; height: 35px;"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" style="width: 35px; height: 35px;"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
